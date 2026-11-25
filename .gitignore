@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.asar
+*.asar.*
+*.exe
+*.zip
+*.log
+.env
+.env.*
+Thumbs.db
