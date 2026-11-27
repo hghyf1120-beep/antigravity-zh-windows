@@ -346,3 +346,362 @@ Turn a screenshot into a web page	把截图转换成网页
 Write a design brief from my research	根据我的研究撰写设计简报
 Summarize a spreadsheet	总结电子表格内容
 Set up my environment	配置我的环境
+Create with Prompt	用提示词创建
+New	新建
+Run a prompt on a schedule, like a morning summary of yesterday's changes. Runs show up here.	设置定时任务，例如每天早晨汇总昨天的更改。运行记录会显示在这里。
+New automation	新建自动化任务
+What should it do?	要执行什么任务？
+Where should it run?	在哪里运行？
+What should the agent do on each run? For example: summarize new bugs assigned to me and anything that changed overnight.	每次运行时需要智能体做什么？例如，汇总新分配给我的缺陷和昨晚的变更。
+For example: Morning bug summary	例如：晨间缺陷摘要
+Enter a prompt for the agent to run...	输入要让智能体执行的提示词…
+Untitled	未命名
+Name	名称
+Required	必填
+Create	创建
+Creating…	正在创建…
+Creating...	正在创建…
+Trigger	触发条件
+Triggers	触发条件
+Add schedule	添加计划
+Add trigger	添加触发条件
+Remove trigger	移除触发条件
+Search triggers…	搜索触发条件…
+Scheduled	定时
+Event	事件
+Instructions	任务说明
+Where it runs	运行位置
+Uses your local files and tools. Schedules only.	使用本机文件和工具，仅支持定时运行。
+Runs on this computer	在本机运行
+Machine	设备
+Runs as	运行身份
+Create a project first.	请先创建一个项目。
+Steps	步骤
+Next	下一步
+Back	返回
+Skip	跳过
+Run now	立即运行
+Run Now	立即运行
+Restart	重新启动
+View logs	查看日志
+View Logs	查看日志
+Manage permissions	管理权限
+Manage Permissions	管理权限
+Enabled	已启用
+Disabled	已停用
+Schedule	计划
+Every day	每天
+Every hour	每小时
+Every weekday	每个工作日
+Every week	每周
+Every month	每月
+Custom schedule	自定义计划
+Hourly	每小时
+Daily	每天
+Weekly	每周
+Monthly	每月
+at	于
+Every	每
+Repeat every	重复间隔
+Time	时间
+Number of hours	小时间隔
+Day of the week	星期
+Sunday	星期日
+Monday	星期一
+Tuesday	星期二
+Wednesday	星期三
+Thursday	星期四
+Friday	星期五
+Saturday	星期六
+Run history	运行历史
+Runs	运行记录
+Marketplace	市场
+Installed	已安装
+Search customizations...	搜索自定义内容…
+Clear category	清除分类
+All categories	全部分类
+All Categories	全部分类
+Category	分类
+Categories	分类
+Featured	精选
+Add	添加
+Added	已添加
+Details	详情
+More Plugins	更多插件
+Explore other marketplace customizations	探索市场中的其他自定义内容
+Most popular first	按热度排序
+Most popular matches first	匹配结果按热度排序
+Build with Google	使用 Google 平台开发
+Connect to Google Workspace, including Docs, Sheets, Slides, Drive, Calendar, and Gmail.	连接 Google Workspace，包括文档、表格、幻灯片、云端硬盘、日历和 Gmail。
+Build on Google's developer platforms, including Android, Chrome, Gemini, and Google Cloud.	使用 Google 开发平台构建应用，包括 Android、Chrome、Gemini 和 Google Cloud。
+Read, draft, and edit docs.	阅读、起草和编辑文档。
+Read, write, and format spreadsheets.	读写电子表格并调整格式。
+Read, edit, and export presentations.	阅读、编辑和导出演示文稿。
+Search, upload, download, and share files.	搜索、上传、下载和共享文件。
+Check availability, schedule events, and RSVP.	查看空闲时间、安排日程和回复邀请。
+Search, read, draft, and send emails in Gmail.	在 Gmail 中搜索、阅读、起草和发送邮件。
+Find skills, agents, and more in the Marketplace.	在市场中查找技能、智能体和其他扩展。
+Browse the Marketplace	浏览市场
+Search the Marketplace	搜索市场
+No plugins available.	暂无可用插件。
+Bundles	扩展套装
+Skills & Rules	技能与规则
+Custom Agents	自定义智能体
+MCP Servers	MCP 服务器
+Agents	智能体
+Connections	连接
+Productivity	效率工具
+Development	开发
+Developer Tools	开发工具
+Data	数据
+Design	设计
+Communication	沟通
+Try again	重试
+Load more	加载更多
+Show more	展开更多
+Show less	收起
+Show All	显示全部
+Show Less	收起
+New Workspace	新建工作区
+New Remote Project	新建远程项目
+Create project	创建项目
+Select Folder(s)	选择文件夹（可多选）
+Select Resource(s)	选择资源（可多选）
+Select Folders	选择文件夹
+Add folder	添加文件夹
+Add Folder	添加文件夹
+Add Resource	添加资源
+Project location	项目位置
+Create New	新建
+Use Existing	使用已有项目
+Set Project Name	设置项目名称
+Enter project name...	输入项目名称…
+A project with this name already exists.	同名项目已存在。
+Project already exists	项目已存在
+Search projects...	搜索项目…
+Search projects…	搜索项目…
+Search workspaces...	搜索工作区…
+Search SSH hosts...	搜索 SSH 主机…
+Connect to GitHub	连接 GitHub
+Configure GitHub App	配置 GitHub 应用
+Connect to SSH Host	连接 SSH 主机
+Group By	分组方式
+Sort Conversations	对话排序
+Sort Projects	项目排序
+Filter	筛选
+Display	显示
+Subtitles	副标题
+Decorations	附加标记
+Auto Pin	自动置顶
+Archived Only	仅显示已归档项
+Last Updated	最近更新
+Last Prompt	最近发送提示词
+Custom Order	自定义顺序
+Manual Order	手动排序
+Status	状态
+Repo	代码仓库
+Environment	环境
+Project + Worktree	项目与工作树
+Location	位置
+Show archived	显示已归档项
+Model	模型
+Add Model	添加模型
+Loading models...	正在加载模型…
+No models available	暂无可用模型
+Thinking effort	思考强度
+Controls how much time and quota the model spends reasoning before responding. Higher effort improves accuracy on hard problems, at the cost of slower responses and higher quota use.	设置模型在回答前用于推理的时间和配额。提高思考强度有助于解答难题，但响应更慢，也会消耗更多配额。
+Best of N Models	从多个模型中择优
+Orchestrator	模型编排器
+View Usage	查看用量
+View plans	查看方案
+Low	低
+Medium	中
+Default (Gemini Pro)	默认（Gemini Pro）
+Review	审阅
+Dictation languages	听写语言
+Constrain voice dictation to selected languages in priority order. Leave empty to auto-detect.	按优先顺序使用所选语言听写。留空即可自动识别语言。
+Reset to auto	恢复自动识别
+Save audio recordings	保存录音
+Only stored on your machine.	录音仅保存在本机。
+No recordings	暂无录音
+Recordings	录音
+Delete all	全部删除
+Delete all recordings?	删除所有录音？
+Account	账号
+Provide Feedback	提交反馈
+Copied version details	已复制版本信息
+Copy version details	复制版本信息
+Upload Debug Bundle	上传调试信息包
+Terminal	终端
+Danger Zone	危险操作
+Setup script	初始化脚本
+Command setup script	命令初始化脚本
+All Workspaces	所有工作区
+Local Checkout	本地检出
+New Worktree	新建工作树
+Select Environment	选择环境
+Select Worktree	选择工作树
+Project	项目
+SSH Host…	SSH 主机…
+New project	新建项目
+Mark All as Read	全部标记为已读
+How often	重复频率
+Custom…	自定义…
+Custom	自定义
+hours	小时
+week	周
+month	月
+on	在
+Sun	周日
+Mon	周一
+Tue	周二
+Wed	周三
+Thu	周四
+Fri	周五
+Sat	周六
+Business	商业
+Science	科学
+Blocked	已阻止
+Disabled. Open Details to finish setup or enable.	已停用。打开详情以完成设置或启用。
+Marketplace notice	市场说明
+Tool Permissions	工具权限
+File access rules	文件访问规则
+Configure allowed and denied paths for file reads and writes.	设置允许或禁止读取、写入的文件路径。
+File Permissions	文件权限
+File Reads	文件读取
+File reads	文件读取
+File Writes	文件写入
+File writes	文件写入
+Allow/deny agent read access to specific files or directories.	允许或禁止智能体读取指定的文件或目录。
+Allow/deny agent write access to specific files or directories.	允许或禁止智能体写入指定的文件或目录。
+Terminal commands	终端命令
+Terminal Commands	终端命令
+Configure allowed terminal commands.	设置允许执行的终端命令。
+Allow/deny specific terminal commands.	允许或禁止指定的终端命令。
+MCP tools	MCP 工具
+MCP Tools	MCP 工具
+Configure external tools via Model Context Protocol.	设置可通过模型上下文协议（MCP）调用的外部工具。
+External tools the agent can call via Model Context Protocol.	智能体可通过模型上下文协议调用的外部工具。
+Enter tool name or server...	输入工具名或服务器名称…
+Plugin permissions	插件权限
+Changes plugins can make without asking.	插件无需询问即可进行的更改。
+Network Permissions	网络权限
+Read URLs	读取网址
+Allow/deny agent read access to specific URLs or domains.	允许或禁止智能体读取指定的网址或域名。
+Allow	允许
+Deny	禁止
+Inherit Global	继承全局设置
+Commands Outside Sandbox	沙箱外命令
+Commands outside sandbox	沙箱外命令
+Configure allowed commands outside the sandbox.	设置允许在沙箱外执行的命令。
+Allow/deny agent command execution outside the sandbox.	允许或禁止智能体在沙箱外执行命令。
+Also includes	还包括
+Configure GitHub access policies.	设置 GitHub 访问策略。
+Modify permissions for file and terminal tools.	更改文件和终端工具权限。
+Outside of folders file access policy	工作文件夹以外的文件访问策略
+Configures how the agent tries to access files outside of its working folders.	设置智能体如何访问工作文件夹以外的文件。
+Controls whether terminal commands require your approval before running.	设置终端命令执行前是否需要你的批准。
+Agent Settings	智能体设置
+New Conversation Button	新建对话按钮
+New conversation button	新建对话按钮
+Which workspace the New Conversation button and keyboard shortcut start you in.	设置使用「新建对话」按钮或快捷键时进入的工作区。
+Last Workspace	上次的工作区
+Reuse your last workspace.	沿用上次的工作区。
+Create a new workspace from your first message.	根据第一条消息创建工作区。
+Start without a workspace, for general questions.	直接开始一般性问答，无需选择工作区。
+Permission Details	权限详情
+Permission Preset	权限预设
+Permission Settings	权限设置
+Security Preset	安全预设
+Security preset	安全预设
+Terminal & Tooling Permissions	终端与工具权限
+Terminal Command Auto Execution	自动执行终端命令
+Terminal command auto execution	自动执行终端命令
+Enable Sandbox Mode	启用沙箱模式
+Enable sandbox mode	启用沙箱模式
+Restricts agent tools to a secure, isolated local sandbox.	将智能体工具限制在本机独立的安全沙箱内。
+Terminal sandbox is not supported in this environment	当前环境不支持终端沙箱
+Require Review	要求审核
+Proceed in Sandbox	在沙箱中执行
+Always Proceed	始终执行
+Manually customize individual settings.	逐项自定义设置。
+Disabled by organization policy	组织策略已停用此项
+Your agent’s ability to execute commands is also controlled by enterprise security policies.	智能体执行命令的能力也受企业安全策略限制。
+Learn more about	详细了解
+Attention	需要注意
+Install	安装
+Uninstall	卸载
+Not installed	未安装
+Cloud Hosting & Deployment	云托管与部署
+Build applications and shell workflows with the Gemini Interactions API, Decisions API, Live API, Genie 4 interactive worlds, and Gemini API CLI, including text, image, video, speech, and music generation, managed agents, and real-time multimodal streaming.	使用 Gemini 的 Interactions、Decisions、Live API、Genie 4 交互世界和 Gemini API CLI 构建应用与命令行工作流，支持文本、图像、视频、语音、音乐生成、托管智能体和实时多模态流。
+Reliable automation, in-depth debugging, and performance analysis in Chrome using Chrome DevTools and Puppeteer	使用 Chrome DevTools 和 Puppeteer 在 Chrome 中执行自动化任务、深入调试并分析性能。
+Core tools and knowledge required to develop for Android.	Android 开发所需的核心工具和知识。
+Prototype, build & run modern apps that users love with Firebase's backend, AI, and operational infrastructure.	使用 Firebase 的后端、AI 和运维基础设施，制作原型、构建并运行现代应用。
+Robotics skills for any robot: 3D perception, collision-free motion planning, visual servoing, robot bring-up, sim2real, agent iteration, MuJoCo simulation, SimReady 3D asset authoring and physics auditing, and a live MuJoCo Studio 3D web sidecar.	面向机器人的技能，涵盖三维感知、无碰撞运动规划、视觉伺服、设备调试、仿真到实机迁移、智能体迭代和 MuJoCo 仿真。还支持制作 SimReady 三维资产、检查物理属性和使用实时 MuJoCo Studio 三维网页面板。
+Using the Google Antigravity Python SDK to build AI agents	使用 Google Antigravity Python SDK 构建 AI 智能体。
+Design, Creative & Media	设计、创意与媒体
+Design, creative, and media tools.	设计、创意和媒体制作工具。
+Create, edit, review, resize, and brand-check Canva designs with the Canva MCP server.	通过 Canva MCP 服务器创建、编辑、审阅设计，调整尺寸并检查品牌规范。
+Turn Figma designs into production code, map components with Code Connect, and create or edit Figma files in Antigravity.	将 Figma 设计转换为生产代码，用 Code Connect 映射组件，在 Antigravity 中创建或编辑 Figma 文件。
+Connect your agent to invideo's AI-native video editor. It trims, grades and mixes on a real timeline while you watch every change land.	将智能体连接到 invideo 的 AI 视频编辑器，在时间线上剪辑、调色和混音，并实时查看改动。
+Give your AI agent 600,000+ real app screens, and the skills to use them. Includes the Mobbin MCP and a skill that redesigns your screen from patterns real apps ship, in your own design system, with the references behind every change.	让智能体参考超过 60 万张真实应用界面。包含 Mobbin MCP 和设计技能，可在你的设计系统中参考已上线应用的做法改进界面，并为每项改动列出参考。
+Agent skills, databases, and interactive viewers for scientific research.	用于科学研究的智能体技能、数据库和交互式查看器。
+Antigravity for science highlights, and an overview of the main science plugins.	查看 Antigravity 科研功能亮点和主要科研插件概览。
+AlphaGenome and major genetics databases to analyze DNA variants, gene regulation, and links between genes and disease.	结合 AlphaGenome 和主要遗传学数据库分析 DNA 变异、基因调控及基因与疾病的关联。
+AlphaFold, 3D visualization tools, and protein databases to explore protein structures, sequences, pathways, and drug interactions.	使用 AlphaFold、三维可视化工具和蛋白质数据库探索蛋白质结构、序列、生物通路及药物相互作用。
+Search scientific papers, clinical trials, FDA records, and historical texts.	搜索科研论文、临床试验、FDA 记录和历史文献。
+RDKit cheminformatics, reaction and property tools, plus ChEMBL and PubChem, to work with molecules, their properties, and bioactivity data.	使用 RDKit 化学信息学、反应和性质分析工具，以及 ChEMBL 和 PubChem 处理分子及其性质和生物活性数据。
+Collection of tools for tandem mass spectrometry (MS/MS) analysis, including spectrum preprocessing, GNPS and MoNA spectral library search, SIRIUS formula prediction, and MetFrag and MAGMa fragment annotation.	串联质谱（MS/MS）分析工具，涵盖谱图预处理、GNPS 和 MoNA 谱库搜索、SIRIUS 分子式预测，以及 MetFrag 和 MAGMa 碎片标注。
+Productivity & Project Management	生产力与项目管理
+Plan work, track issues, sign documents, and manage your notes and files.	规划工作、跟踪事项、签署文档并管理笔记和文件。
+Teamwork Graph CLI is Atlassian's agent-first interface to your entire work context: Jira issues, Confluence pages, Bitbucket PRs, along with your connected third-party data sources. Purpose-built for coding agents like Antigravity (terminal or desktop), and powered by Atlassian's context graph. Try: "draft a Jira issue from this PR and link it to the epic." Run /twg-setup after install to connect Atlassian Teamwork Graph CLI to Antigravity.	Atlassian Teamwork Graph CLI 通过上下文图连接 Jira 事项、Confluence 页面、Bitbucket PR 和第三方数据源，适用于 Antigravity 终端版和桌面版等编程智能体。例如，可让它根据 PR 起草 Jira 事项并关联到史诗。安装后运行 /twg-setup 连接到 Antigravity。
+Connect Antigravity to your ClickUp workspace — manage tasks, track time, and collaborate with your team without switching context.	连接 ClickUp 工作区，管理任务、记录用时并与团队协作。
+Build, test, and debug Docusign integrations with developer skills for authentication, template-based signing, envelope status, and troubleshooting.	构建、测试和调试 Docusign 集成，处理身份验证、基于模板的签名、信封状态及故障排查。
+Connect Antigravity to Dropbox to search, inspect, summarize, share, collect uploads, organize folders, and clean up files with confirmation for write actions.	连接 Dropbox 以搜索、查看、汇总和共享文件，收集上传内容、整理文件夹和清理文件。写入操作需要确认。
+The AI notepad for meetings. Connect to your meeting history and use your conversation context to get things done.	AI 会议笔记本。连接历史会议，利用对话上下文处理后续工作。
+The product development system for teams and agents. Manage issues, projects, and documents across your Linear workspace from Antigravity.	面向团队和智能体的产品开发系统。在 Antigravity 中管理 Linear 工作区的事项、项目和文档。
+Deploy and host your apps, sites, and their backends.	部署和托管应用、网站及其后端服务。
+Build, deploy and manage apps on Cloudflare Workers, storage and AI, with platform skills and the Cloudflare API through one MCP server.	通过 MCP 服务器调用 Cloudflare API 和平台技能，使用 Workers、存储和 AI 服务构建、部署和管理应用。
+Build and deploy on Netlify: functions, edge functions, blobs, database, identity, forms, image CDN, caching, and AI Gateway, plus the Netlify MCP server.	在 Netlify 上构建和部署应用。支持函数、边缘函数、对象存储、数据库、身份、表单、图像 CDN、缓存、AI Gateway 和 Netlify MCP 服务器。
+Deploy, configure, monitor, and troubleshoot apps, databases, and infrastructure on Railway from Antigravity with Railway's agent skill and hosted MCP server.	在 Antigravity 中通过 Railway 技能和托管 MCP 服务器，部署、配置、监控应用、数据库和基础设施，并排查故障。
+Turn an idea into a website, dashboard, report, or small web tool you can share. Build it in chat or bring your own work, and publish it with Spacefast.	将想法做成可分享的网站、仪表板、报告或小工具。在聊天中构建或导入已有作品，再通过 Spacefast 发布。
+Build and deploy web apps and AI agents on Vercel with skills for Next.js, AI SDK, and cloud services, plus the official Vercel MCP server.	使用 Next.js、AI SDK、云服务技能和官方 Vercel MCP 服务器，在 Vercel 上构建和部署 Web 应用与 AI 智能体。
+Build Wix apps and headless sites, and manage Wix stores, bookings, CMS and more, with Wix CLI skills and the official Wix MCP server.	使用 Wix CLI 技能和官方 MCP 服务器构建 Wix 应用及无头网站，管理商店、预订和内容管理系统等。
+APIs, services, and tools to build, test, secure, and run your apps.	用于构建、测试、保护和运行应用的 API、服务和工具。
+Query Arize AX projects, traces, datasets, and experiments from Antigravity, with skills for tracing, evals, and prompt optimization.	在 Antigravity 中查询 Arize AX 项目、追踪记录、数据集和实验，支持链路追踪、评测及提示词优化。
+Add Auth0 authentication to any app: login, MFA, SSO, Organizations, RBAC, custom domains, and branding. Debug auth errors and migrate from other providers.	为应用添加 Auth0 登录、多因素认证、单点登录、组织、基于角色的访问控制、自定义域名和品牌样式。支持排查身份验证错误和从其他服务迁移。
+Build and deploy Base44 full-stack apps: CLI project management, JavaScript/TypeScript SDK development, and production troubleshooting skills.	构建和部署 Base44 全栈应用。支持 CLI 项目管理、JavaScript/TypeScript SDK 开发和生产环境故障排查。
+Investigate incidents, check who's on call, and query logs, metrics, traces, errors and RUM in Better Stack. Build dashboards and manage uptime monitors.	在 Better Stack 中调查故障、查看值班人员，查询日志、指标、追踪、错误和真实用户监控数据，并管理仪表板和可用性监控。
+Give your agent a real browser: navigate, click, type, screenshot, and extract data from any site, locally or on Browserbase cloud browsers.	让智能体在本机或 Browserbase 云浏览器中浏览网页、点击、输入、截图和提取数据。
+Add authentication and user management with Clerk. Skills for setup, frameworks, organizations, billing, webhooks, and testing, plus the Clerk MCP server.	通过 Clerk 添加身份验证和用户管理。提供配置、框架、组织、计费、Webhook、测试技能及 Clerk MCP 服务器。
+Payments, CRM, accounting, data, identity, customer support, marketing, and workflow automation.	支付、客户关系管理、会计、数据、身份、客户支持、营销和工作流自动化。
+Manage your Bigin CRM from Antigravity: review pipelines, find contacts and deals, log calls, plan follow-ups, and email customers.	在 Antigravity 中管理 Bigin CRM，查看销售管道、查找联系人和交易、记录通话、安排跟进并发送客户邮件。
+Databricks skills for the CLI, Apps, Lakebase, Model Serving, Lakeflow Jobs, Spark Declarative Pipelines, Declarative Automation Bundles (DABs), and classic-to-serverless migration.	Databricks 技能涵盖 CLI、Apps、Lakebase、模型服务、Lakeflow Jobs、Spark 声明式管道、声明式自动化包（DAB）和无服务器迁移。
+Search Intercom conversations, contacts, and companies, spot support trends, and install the Intercom Messenger with secure identity verification.	搜索 Intercom 对话、联系人和公司，发现客服趋势，并安装带安全身份验证的 Intercom Messenger。
+Salaries, jobs & career advice. Levels.fyi is your career companion to ensure you get paid fairly and find jobs you'll love.	查询薪资、职位和职业建议。Levels.fyi 帮助你了解合理薪酬，寻找合适的工作。
+SEO workflows on live Semrush data: keyword research, site audits, backlinks, competitor, traffic and market analytics, PPC, and AI brand visibility.	使用 Semrush 实时数据开展关键词研究、站点审计、外链分析、竞品与流量分析、市场分析、点击付费广告和 AI 品牌可见度分析。
+Accept payments and grow your business. Stripe's official MCP server enables AI agents to manage customers, products, prices, payment links, invoices, subscriptions, and refunds, as well as search Stripe documentation.	使用 Stripe 收款。官方 MCP 服务器让智能体管理客户、产品、价格、支付链接、发票、订阅和退款，并搜索 Stripe 文档。
+Connect to your managed Looker MCP server to explore data, run saved Looks, build dashboards, and validate LookML.	连接托管的 Looker MCP 服务器，探索数据、运行已保存的 Look、构建仪表板并验证 LookML。
+Build, test, and manage n8n workflows and Agents through your instance MCP server. Use official skills for node setup, credentials, and debugging.	通过实例的 MCP 服务器构建、测试和管理 n8n 工作流与智能体。使用官方技能配置节点、凭据并排查问题。
+Read-only marketing analytics: report spend, conversions, CPA and ROAS across ad platforms, GA4 and Search Console. It never changes your accounts.	只读营销分析，汇总广告平台、GA4 和 Search Console 的支出、转化、获客成本和广告支出回报率。不会更改账户。
+Manage Any.do personal tasks, workspace boards and sections, subtasks, reminders, and connected calendar events from your agent.	通过智能体管理 Any.do 的个人任务、工作区看板和分区、子任务、提醒及关联的日历事件。
+Search European procurement data and manage your tender pipeline.	搜索欧洲采购数据并管理投标进度。
+Research U.S. case law, statutes, regulations, and court rules. Find authorities, check quotations against opinions, and see how later courts cite a case.	研究美国判例、成文法、法规和法院规则。查找权威法律依据、对照判决核实引文，并查看后续法院如何引用案件。
+Google does not control the availability or functionality of third party developer tools. Your data from third party developer tools connected to your Antigravity instance may be shared with Google. Google will protect any such data in accordance with the Google Privacy Policy, found here:	Google 不控制第三方开发者工具的可用性或功能。连接到 Antigravity 的第三方开发者工具中的数据可能会与 Google 共享。Google 将按《Google 隐私权政策》保护这些数据。政策链接如下。
+Up-to-date documentation lookup. Pull version-specific documentation and code examples directly from source repositories into your coding agent's context.	直接从源码仓库查找指定版本的最新文档和示例代码，供编程智能体参考。
+Leaving Soon	即将下线
+Notice	提示
+Usage	用量
+Offloads routine steps to a faster executor. Same quality, fewer tokens used.	将常规步骤交给更快的执行模型，在保持质量的同时减少 token 用量。
+Worktree	工作树
+Workspace + Worktree	工作区与工作树
+Sort Workspaces	工作区排序
+Unknown Environment	未知环境
+Create a new project from one or more folders.	从一个或多个文件夹创建新项目。
+Create a project on a machine you reach over SSH. It opens in that host's own window.	在可通过 SSH 连接的主机上创建项目。项目将在该主机的独立窗口中打开。
+Existing Folder…	现有文件夹…
+Remote Project	远程项目
+No description available.	暂无说明。
+Previous	上一个
+Select Model	选择模型
+Select Project	选择项目
