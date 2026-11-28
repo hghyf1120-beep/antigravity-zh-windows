@@ -1,4 +1,4 @@
-"""Antigravity 2.35.2 Windows x64. Offline resource translation."""
+"""Antigravity 2.36.0 Windows x64. Offline resource translation."""
 import argparse
 import csv
 import hashlib
@@ -10,8 +10,9 @@ import subprocess
 import sys
 import tempfile
 
-ORIGINAL = "e057115571cf5085406d20f2427a5afac272b712ec84332c7157da0113d4b2d0"
-LOCALIZED = "67de159b1f3b1dc57976820b2850bf8ee2602dc727b752177099e8b207f011e5"
+ORIGINAL = "d2bc25eab00f2ff6f14395e45f13347eef605af5a63f28db7edbfd2ab42a7571"
+PREVIOUS = "d097c751888c5dd5df5bb52780d836c8b750447b27f96f90243ab79bb764fdeb"
+LOCALIZED = "92e6b97a17909fa0384dad2e1db8e0aef31c72918fe5eb3f677634bd4ba7c098"
 NATIVE_PATCH = Path(__file__).with_name("native-patch.json")
 
 
@@ -86,15 +87,18 @@ def require_closed():
 def change(target, action, guard=require_closed):
     raw = target.read_bytes()
     current = digest(raw)
-    backup = target.with_name("app.asar.original-2.35.2-zh-backup")
-    if current not in (ORIGINAL, LOCALIZED):
+    backup = target.with_name("app.asar.original-2.36.0-zh-backup")
+    if current not in (ORIGINAL, PREVIOUS, LOCALIZED):
         raise ValueError("当前程序包版本或内容不匹配，操作已停止。")
     if action == "check":
         if current != ORIGINAL and (not backup.is_file() or digest(backup.read_bytes()) != ORIGINAL):
             raise ValueError("原版备份缺失或校验失败。请使用官方安装程序恢复。")
         if current != LOCALIZED and digest(translate(raw if current == ORIGINAL else backup.read_bytes())) != LOCALIZED:
             raise ValueError("译文或工具不匹配。")
-        print("2.35.2 汉化补丁 已安装。" if current == LOCALIZED else "校验通过，可安装2.35.2 汉化补丁。")
+        if current == PREVIOUS:
+            print("已安装 v2.3.1，可直接升级到 v2.3.2。")
+            return
+        print("2.36.0 汉化补丁 已安装。" if current == LOCALIZED else "校验通过，可安装2.36.0 汉化补丁。")
         return
     wanted = LOCALIZED if action == "install" else ORIGINAL
     if current == wanted:

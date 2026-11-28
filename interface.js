@@ -12,6 +12,7 @@
     // can contain exactly the same words as a command and must keep their original text.
     // Match owned fields and labels, including menus mounted outside their parent page.
     const fields = [
+        '[data-testid="new-tab-search-input"]',
         '[data-testid="customizations-search"]', '[data-testid="project-selector-search"]',
         '[data-testid="project-selector-ssh-host-search"]', '[data-testid="new-sidecar-modal"]',
         '[data-testid="sidecars-view"]', '[data-testid="model-selector-panel"]',
@@ -22,7 +23,9 @@
     const projectActions = '.origin-top-left.overflow-hidden.flex.flex-col';
     const locationCommands = new Set(["Local Checkout", "New Workspace", "New Worktree", "Unknown Environment"]);
     const projectCommands = new Set(["New Project", "New Workspace", "SSH Host…", "Remote Project", "Existing Folder…"]);
-    const tooltipLabels = new Set(["Select Model", "Select Project", "Settings", "Customizations", "Automations", "New Conversation",
+    const tooltipLabels = new Set(["Toggle Side Panel", "Toggle Overview Panel", "Toggle Maximize Side Panel", "Customize Sections", "New Tab",
+        "Send a message in the main conversation first to start a side question",
+        "Select Model", "Select Project", "Settings", "Customizations", "Automations", "New Conversation",
         "Create New Project", "Display Options", "Search Conversations", "Toggle Sidebar", "Go Back", "Go Forward",
         "Offloads routine steps to a faster executor. Same quality, fewer tokens used.",
         "Select Environment", "Add context", "More options", "Create a new project from one or more folders.",
@@ -31,6 +34,24 @@
     const reviewLabels = changedHeader + ' :is(span.text-secondary-foreground.truncate,button[data-testid="changed-files-card-review"] span)';
     const composer = [environmentButton,'[data-testid="model-selector-trigger"]','[data-testid="permissions-selector-trigger"]',
         '[data-testid="location-selector-trigger"]', '[data-testid="project-selector-trigger"]'].join(",");
+    const panels = ':is([data-testid="overview-panel"],[data-testid="side-panel-new-tab-view"])';
+    // Section headings and action labels share a container with arbitrary report and task titles.
+    const panelControls = [
+        panels + ' .agy-hover-label.select-none.font-medium', panels + ' button.inline-flex[aria-expanded]',
+        '[data-testid^="overview-panel-row-"] > .agy-hover-label', '[data-testid="overview-panel-customize-trigger"]',
+        '[data-testid="new-tab-search-clear"]', '[data-testid^="new-tab-group-"]',
+        '[data-testid="side-panel-new-tab-view"] div.text-muted-foreground.px-3:only-child',
+        '[role="menu"]:has([data-testid^="plugins-submenu-"]) .font-medium.select-none',
+        ...["review","open-file","new-terminal","new-preview","side-question","extensions"].map(id => '[data-testid="new-tab-card-' + id + '"]'),
+        '[data-testid="side-panel-new-tab-button"]', '[data-testid="side-panel-plus-open-file"]',
+        '[role="menu"]:has([data-testid="side-panel-plus-open-file"]) [role="menuitem"]:not([data-testid])'
+    ].join(",");
+    const sectionMenu = '[role="menu"]:has([role="menuitemcheckbox"])';
+    function isSectionMenu(el) {
+        const menu = el.closest(sectionMenu);
+        const heading = menu?.querySelector('.font-medium.select-none');
+        return heading && ["Customize Sections", labels.get("Customize Sections")].includes(heading.textContent.trim());
+    }
     const fixedControls = [
         '[data-testid^="schedule-"][data-testid$="-option"]', '[data-testid="schedule-editor-panel"]',
         '[data-testid="automation-schedule-editor"]', '[data-testid="featured-carousel"] .agy-spotlight-panel p',
@@ -88,7 +109,7 @@
     const greeting = ".home-greeting-title";
     const project = 'button[aria-label^="Select project, current:"],button[aria-label^="选择项目，当前："]';
     const hint = ".pointer-events-none";
-    const scopes = [settings, nav, group, topMenu, greeting, project, fixedControls, projectActions, menuItem, '[role="option"]', '[role="tooltip"]'].join(",");
+    const scopes = [settings, nav, group, topMenu, greeting, project, fixedControls, panelControls, sectionMenu, projectActions, menuItem, '[role="option"]', '[role="tooltip"]'].join(",");
     const ignore = [
         "pre", "code", "script", "style", "textarea", "input", "iframe", "webview",
         "[contenteditable]:not([contenteditable=false])", "[data-markdown-root]", ".prose",
@@ -143,6 +164,7 @@
     }
 
     function accepts(element, value) {
+        if (element.closest(panelControls) || isSectionMenu(element)) return true;
         if (element.closest(settings)) return true;
         if (element.closest('[role="tooltip"]')) return tooltipLabels.has(value);
         if (projectCommands.has(value) && element.closest(projectActions) &&
@@ -161,7 +183,7 @@
     // A conversation can contain a fixed composer and review bar alongside user content.
     function outsideControls(el) {
         return el.closest(ignore) || (el.closest('[data-testid="conversation-view"]') &&
-            !el.closest(changedHeader) && !el.closest(composer) && !el.closest(hint));
+            !el.closest(changedHeader) && !el.closest(composer) && !el.closest(hint) && !el.closest(panelControls));
     }
 
     function scheduleOption(el) {

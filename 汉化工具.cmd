@@ -1,7 +1,7 @@
 @echo off
 setlocal DisableDelayedExpansion
 chcp 65001 >nul
-echo Antigravity 简体中文补丁 2.3.0  ^|  Windows x64  ^|  客户端 2.35.2
+echo Antigravity 简体中文补丁 2.3.2  ^|  Windows x64  ^|  客户端 2.36.0
 echo.
 if not exist "%~dp0localize.py" goto extract
 echo 1. 检查兼容性（只读）
